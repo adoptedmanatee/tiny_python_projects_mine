@@ -1,0 +1,13 @@
+When a package/command in python is needed, its usually not a application/binary. It is a module that has to be downloaded and installed for python to use. To do this, python3 -m pip install -r requirements.txt and list the file in the requirements file. Or python3 -m pip install module1 module2
+
+Expanding a list naturally using star - 
+>>> print(*mylist)
+
+Adding comma's to a list. Seperator can also be changed to anything else. 
+>>> print(', '.join(myl)) 
+
+The addargument usage depends on the name of argument definded in --"name". Otherwise, attribute wont be available:
+  parser.add_argument('-s','--sorted')
+  if args.sorting:
+  AttributeError: 'Namespace' object has no attribute 'sorting' <---
+
