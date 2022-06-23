@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Author : runner <runner@09409b004925>
+Author : Wesley Robertson
 Date   : 2022-06-09
 Purpose: Encrypt Phone Number
 """
