@@ -35,16 +35,16 @@ def main():
     args = get_args()
     pos_arg = args.positional
     encrypteR = {
-        "1": "9",
-        "2": "8",
-        "3": "7",
-        "4": "6",
-        "5": "0",
-        "6": "4",
-        "7": "3",
-        "8": "2",
-        "9": "1",
-        "0": "5",
+        "1": "Nine",
+        "2": "Eight",
+        "3": "Seven",
+        "4": "Six",
+        "5": "Zero",
+        "6": "Four",
+        "7": "Three",
+        "8": "Two",
+        "9": "One",
+        "0": "Five",
     }
 
     phrase = pos_arg

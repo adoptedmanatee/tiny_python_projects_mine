@@ -1,5 +1,9 @@
 When a package/command in python is needed, its usually not a application/binary. It is a module that has to be downloaded and installed for python to use. To do this, python3 -m pip install -r requirements.txt and list the file in the requirements file. Or python3 -m pip install module1 module2
 
+Add python to Path - PATH=$PATH:/Users/wesleyr/Library/Python/3.8/bin
+May get an error about the python files not being found. By defualt macos uses "/Library/Developer/CommandLineTools/usr/bin/python3".
+    make: pytest: No such file or directory
+
 Expanding a list naturally using star - 
 >>> print(*mylist)
 
