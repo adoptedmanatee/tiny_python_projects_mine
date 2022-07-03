@@ -15,3 +15,21 @@ The addargument usage depends on the name of argument definded in --"name". Othe
   if args.sorting:
   AttributeError: 'Namespace' object has no attribute 'sorting' <---
 
+fh_outfile = open('myfile.txt', 'w')
+help(fh_outfile)
+This will display the help output of the TextIOWrapper class object. Which is what is used for the file handler. 
+
+
+The angle bracket (>) at the beginning of this line shows the source of the subsequent errors.
+The “E” at the beginning of this line shows that this is an “Error” you should read. The AssertionError is saying that the test.py program is trying to execute the command ./hello.py to see if it will produce the text “Hello, World!”
+The hyphen character (-) is showing that the actual output from the command is “Permission denied.”
+The plus character (+) shows that the test expected to get “Hello, World!”
+
+
+Pointing to sys.stdout - print('hello', file=sys.stdout)
+
+python -c 'code' - python -c 'import sys; print sys.stdin.isatty()'
+Is a TTY session?? - https://www.man7.org/linux/man-pages/man3/isatty.3.html
+
+
+
