@@ -59,4 +59,4 @@ if __name__ == "__main__":
 # Cannot standardize all keys to uppercase without creating a new dict - https://stackoverflow.com/questions/50004310/convert-python-dictionary-to-uppercase
 # Commited under the same message ID and appears to have overwritten. Adding change to file 
 # The following paths are ignored by one of your .gitignore files: -> was added?
-# Changed username git config --global user.name "adoptedmanatee"  
+# Changed username git config --global user.name "adoptedmanatee" and email which appropriately authenticates my github user account.
